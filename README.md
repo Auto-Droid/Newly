@@ -34,13 +34,25 @@ In your Application's or Module's build.gradle file:
 ```gradle
 
 	dependencies {
-		        compile 'com.github.Auto-Droid:Newly:0.1'
+		        compile 'com.github.Auto-Droid:Newly:0.2'
 		}
 
 ```
 
+
+Initialize library using builder pattern.
+
 In your Kotlin class:
- Initialize library using builder pattern.
+```kotlin
+class MainActivity : AppCompatActivity() , NewlyOnTouchListener {
+  	.....
+       
+	override fun onNewlyTouchListener() {
+		Toast.makeText(this,"clicked",Toast.LENGTH_SHORT).show();
+	}
+}
+
+```
 
 ```kotlin
 
@@ -54,9 +66,32 @@ In your Kotlin class:
 
 ```
 
+In your Java class:
+```java
+   public class HomeScreen extends AppCompatActivity implements NewlyOnTouchListener {
+       .....
+       
+        @Override
+    public void onNewlyTouchListener() {
+	//TODO Newly popup clicked
+    }
+}  
+```
 
-## Ios compatible library
-https://github.com/dhirajjadhao/Newly
+```java
+
+   Newly newly = new Newly.Build(activity)
+                .setBackgroundDrawable(R.drawable.rectangle)
+                .setText("  ↑ New Tweets  ")
+                .setTextColor("#FFFFFF")
+                .setHeightOffset(250)
+                .build();
+        newly.show();
+
+```
+
+## Ios compatible version
+@Author <a href="https://github.com/dhirajjadhao">Dhiraj Rajendra Jadhao</a> : https://github.com/dhirajjadhao/Newly
 
 
 This project is licensed under <a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">MIT LICENSE</a> ,see the <a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">LICENSE.md</a> file for details
