@@ -25,14 +25,12 @@ class MainActivity : AppCompatActivity() , NewlyOnTouchListener {
 
         var btnClick = findViewById<View>(R.id.btnClick) as Button;
         btnClick.setOnClickListener {
-            //var newly = Newly.Build(activity as MainActivity).setText("7 new post")
-            // .setBackgroundColor("#FF0000")
-            // .setHeightOffset(123f).build();
-           // var newly = Newly.Build(activity as MainActivity).setText("7 new post").setBackgroundDrawable(R.drawable.rectangle).setHeightOffset(123f).build();
             var newly = Newly.Build(activity as MainActivity)
                     .setText("  ↑ New Tweets  ")
                     .setBackgroundDrawable(R.drawable.rectangle)
-                    .setHeightOffset(250).build();
+                    .setTextColor("#FFFFFF")
+                    .setHeightOffset(250)
+                    .build();
             newly.show()
         }
     }
