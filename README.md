@@ -55,8 +55,8 @@ In your Kotlin class:
 ##Ios compatible 
 https://github.com/dhirajjadhao/Newly
 
-This project is licensed under<a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">MIT LICENSE</a> 
-- see the <a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">LICENSE.md</a> file for details
+This project is licensed under <a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">MIT LICENSE</a> ,see the <a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">LICENSE.md</a> file for details
+
 
 
 @Contributor <a href="https://github.com/advait-android">Advait Pakhode</a>
