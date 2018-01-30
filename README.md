@@ -2,7 +2,7 @@
 
 <a href="https://raw.githubusercontent.com/xmartlabs/Eureka/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" /></a>
 <a href="http://kotlinlang.org/"><img src="https://img.shields.io/badge/kotlin-compatable-brightgreen.svg?style=flat" alt="kotlin" /></a>
-<a href="https://www.android.com"><img src="https://img.shields.io/badge/Android-v0.1-brightgreen.svg?style=flat" alt="Android" /></a>
+<a href="https://www.android.com"><img src="https://img.shields.io/badge/Android-v0.2-brightgreen.svg?style=flat" alt="Android" /></a>
 
 
 `Newly` is a drop in solution to add Twitter/Facebook/Linkedin style, new updates/tweets/posts available button. It can be used to notify user about new content availability and other actions by just calling methods in kotlin or java
