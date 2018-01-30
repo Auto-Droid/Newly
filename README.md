@@ -1,7 +1,7 @@
 ![newly 2](https://cloud.githubusercontent.com/assets/2684979/20462091/9357647c-af38-11e6-992f-07b9c263bb59.png)
 
 <a href="https://raw.githubusercontent.com/xmartlabs/Eureka/master/LICENSE"><img src="http://img.shields.io/badge/license-MIT-blue.svg?style=flat" alt="License: MIT" /></a>
-<a href="http://kotlinlang.org/"><img src="https://img.shields.io/badge/kotlin-compatable-blue.svg?style=flat" alt="kotlin" /></a>
+<a href="http://kotlinlang.org/"><img src="https://img.shields.io/badge/kotlin-compatable-brightgreen.svg?style=flat" alt="kotlin" /></a>
 <a href="https://www.android.com"><img src="https://img.shields.io/badge/Android-v0.1-brightgreen.svg?style=flat" alt="Android" /></a>
 
 
@@ -52,12 +52,12 @@ In your Kotlin class:
 ```
 
 
-##Ios compatible 
+## Ios compatible library
 https://github.com/dhirajjadhao/Newly
 
-This project is licensed under<a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">MIT LICENSE</a> 
-- see the <a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">LICENSE.md</a> file for details
+
+This project is licensed under <a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">MIT LICENSE</a> ,see the <a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">LICENSE.md</a> file for details
+
 
 
 @Contributor <a href="https://github.com/advait-android">Advait Pakhode</a>
-
