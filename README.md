@@ -94,6 +94,7 @@ In your Java class:
 @Author <a href="https://github.com/dhirajjadhao">Dhiraj Rajendra Jadhao</a> : https://github.com/dhirajjadhao/Newly
 
 
+## LICENSE
 This project is licensed under <a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">MIT LICENSE</a> ,see the <a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">LICENSE.md</a> file for details
 
 
