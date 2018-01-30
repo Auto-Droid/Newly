@@ -58,30 +58,39 @@ class Newly private constructor(builder: Build) {
 
         var context: Activity? = null
             get() = this._context
+            private set
 
         var backgroundColor: String? =  null
             get() = this._backgroundColor
+            private set
 
         var backgroundDrawable: Int? =  null
             get() = this._backgroundDrawable
+            private set
 
         var textColor: String? =  null
             get() = this._textColor
+            private set
 
         var text: String? =  null
             get() = this._text
+            private set
 
         var heightOffset: Int? =  null
             get() = this._heightOffset
+            private set
 
         var hideOnTouch: Boolean = false
             get() = this._hideOnTouch
+            private set
 
         var popUpHeight: Int? =  null
             get() = this._popUpHeight
+            private set
 
         var popUpWidth: Int? =  null
             get() = this._popUpWidth
+            private set
 
 
 
