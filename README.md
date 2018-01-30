@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() , NewlyOnTouchListener {
   	.....
        
 	override fun onNewlyTouchListener() {
-		Toast.makeText(this,"clicked",Toast.LENGTH_SHORT).show();
+		//TODO Newly popup clicked
 	}
 }
 
