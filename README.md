@@ -5,12 +5,10 @@
 <a href="https://www.android.com"><img src="https://img.shields.io/badge/Android-v0.1-brightgreen.svg?style=flat" alt="Android" /></a>
 
 
-
 `Newly` is a drop in solution to add Twitter/Facebook/Linkedin style, new updates/tweets/posts available button. It can be used to notify user about new content availability and other actions by just calling methods in kotlin
 
 - [Requirements](#requirements)
-- [Usage](#usage)
-
+- [Installation](#installation)
 
 ## Requirements
 
@@ -53,4 +51,13 @@ In your Kotlin class:
 
 ```
 
+
+##Ios compatible 
+https://github.com/dhirajjadhao/Newly
+
+This project is licensed under<a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">MIT LICENSE</a> 
+- see the <a href="https://github.com/Auto-Droid/Newly/blob/master/LICENSE">LICENSE.md</a> file for details
+
+
+@Contributor <a href="https://github.com/advait-android">Advait Pakhode</a>
 
