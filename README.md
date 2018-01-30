@@ -7,6 +7,9 @@
 
 `Newly` is a drop in solution to add Twitter/Facebook/Linkedin style, new updates/tweets/posts available button. It can be used to notify user about new content availability and other actions by just calling methods in kotlin
 
+
+![ezgif com-resize](https://raw.githubusercontent.com/Auto-Droid/Newly/master/newly_gif.gif)
+
 - [Requirements](#requirements)
 - [Installation](#installation)
 
