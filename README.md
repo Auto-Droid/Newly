@@ -100,3 +100,5 @@ This project is licensed under <a href="https://github.com/Auto-Droid/Newly/blob
 
 
 @Contributor <a href="https://github.com/advait-android">Advait Pakhode</a>
+
+Copyright © 2018 Sourabh Karkal (Auto-Droid)
