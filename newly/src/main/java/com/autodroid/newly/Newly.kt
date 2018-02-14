@@ -1,7 +1,7 @@
 package com.autodroid.newly.dialog
 
 import android.app.Activity
-import android.app.AlertDialog
+import android.support.v7.app.AlertDialog
 import android.app.Dialog
 import android.content.Context
 import android.graphics.Color
@@ -19,7 +19,7 @@ import com.autodroid.newly.NewlyOnTouchListener
  */
 class Newly private constructor(builder: Build) {
 
-    var context : Activity? =null
+    var context : Context? =null
     var backgroundColor : String? = null
     var backgroundDrawable : Int? = null
     var textColor  : String? = null
@@ -45,7 +45,7 @@ class Newly private constructor(builder: Build) {
     //private constructor(build : Build) : this(build.backgroundColor?)
 
 
-    class Build(private val _context: Activity){
+    class Build(private val _context: Context){
 
         private var _backgroundColor: String? = null
         private var _backgroundDrawable : Int? = null
@@ -56,7 +56,7 @@ class Newly private constructor(builder: Build) {
         private var _popUpHeight  : Int? = null
         private var _popUpWidth  : Int? = null
 
-        var context: Activity? = null
+        var context: Context? = null
             get() = this._context
             private set
 
@@ -142,13 +142,17 @@ class Newly private constructor(builder: Build) {
     }
 
     fun show(){
-        val dialogBuilder = AlertDialog.Builder(context,com.autodroid.newly.R.style.CustomDialog)
-        val inflater = context?.layoutInflater
+        val dialogBuilder = AlertDialog.Builder(this!!.context!!,com.autodroid.newly.R.style.CustomDialog)
+        val inflater = LayoutInflater.from(context)//context?.layoutInflater
 
         val dialogView = inflater?.inflate(R.layout.newly_dialog, null)
-        dialogBuilder.setView(dialogView)
+
+
         //dialogBuilder.setView(dialogView)
 
+        val dBuilder = dialogBuilder.create()
+        dBuilder.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        dBuilder.setView(dialogView)
         val tvPopText = dialogView?.findViewById<View>(R.id.tvPopText) as TextView
         val llPopBackground = dialogView?.findViewById<View>(R.id.llPopBackground) as LinearLayout
 
@@ -161,12 +165,11 @@ class Newly private constructor(builder: Build) {
 
         }
 
-        val dBuilder = dialogBuilder.create()
-
         val window = dBuilder.window
         val wlp = window.getAttributes()
         window.setBackgroundDrawableResource(android.R.color.transparent)
         window.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT));
+        window.setDimAmount(0.0f)
 
         val params = llPopBackground.getChildAt(0).layoutParams
         if(popUpHeight!=null) params.height = popUpHeight as Int else params.height = 100
