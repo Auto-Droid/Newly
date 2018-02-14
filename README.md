@@ -15,7 +15,10 @@
 
 ## Requirements
 
-- Android version 5.0 and above (Work in progress to support lower versions 🙏)
+- Android Studio
+- Java 
+- Kotlin
+- Android version 2.3 +
 
 ## Installation
 
