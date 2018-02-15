@@ -37,7 +37,7 @@ In your Application's or Module's build.gradle file:
 ```gradle
 
 	dependencies {
-		        compile 'com.github.Auto-Droid:Newly:0.2'
+		        compile 'com.github.Auto-Droid:Newly:1.0'
 		}
 
 ```
